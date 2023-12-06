@@ -8,7 +8,7 @@ public class ParOImpar2 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = 0;
+        int num;
         System.out.print("Introduza un numero entero: ");
         num = sc.nextInt();
         
