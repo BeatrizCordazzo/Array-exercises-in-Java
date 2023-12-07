@@ -9,10 +9,10 @@ public class MediaPosNegArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[10];
+        System.out.print("Introduzca un numero entero, positivo o negativo: ");
         
         
         for (int i = 0; i < 10; i++) {
-            System.out.println("Introduzca un numero entero, positivo o negativo: ");
             num[i] = sc.nextInt();
         }
         double sumaPos = 0;
