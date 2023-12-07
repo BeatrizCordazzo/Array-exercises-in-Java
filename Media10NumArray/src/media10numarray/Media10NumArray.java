@@ -12,7 +12,7 @@ public class Media10NumArray {
             System.out.println("Introduce el "+(i+1)+"º numero: ");
             num[i] = sc.nextInt();
         }
-        int sumaPos = 0, sumaNeg = 0, contPos = 0, contNeg = 0;
+        double sumaPos = 0, sumaNeg = 0, contPos = 0, contNeg = 0;
         
         for (int i = 0; i < 10; i++) {
             if (num[i] >= 0) {
@@ -23,8 +23,8 @@ public class Media10NumArray {
                 contNeg++;
             }
         }       
-        double mediaPos = (double) sumaPos / contPos;
-        double mediaNeg = (double) sumaNeg / contNeg;
+        double mediaPos = sumaPos / contPos;
+        double mediaNeg = sumaNeg / contNeg;
         
         System.out.println("La media de los numeros positivos es: "+mediaPos);
         System.out.println("La media de los numeros negativos es: "+mediaNeg);
